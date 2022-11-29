@@ -1,0 +1,220 @@
+/**/
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Roboto:300,700");
+
+#registro,
+#login {
+  background-color: #ffae12;
+}
+
+.form-control {
+  margin-top: 10px !important;
+}
+
+/****************************NAVBAR****************************************************/
+.navbar {
+  background-color: #ffae12;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  min-height: 100px;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #ffffff;
+  margin-right: 30px;
+  transition: 0.3s ease-in;
+}
+
+.nav-link:hover {
+  color: #f1f1f1;
+  font-size: 2rem;
+}
+
+.logo-brand {
+  min-width: 90px;
+  max-width: 110px;
+}
+
+.navbar-toggler {
+  font-size: 40px;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+.imgNavbar {
+  border-radius: 50% !important;
+}
+
+/********************************HEADER***********************************************/
+#header {
+  background-image: url("../media/header3.jpg");
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btnFichaje {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.titleHeader {
+  margin-top: 150px;
+  max-width: 815px;
+  margin: auto;
+  padding-top: 0px;
+}
+
+/********************************** CALENDARIO *****************************************************/
+
+#calendarioContenedor {
+  width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  height: 750px;
+}
+
+/*cabecera de la página*/
+h1 {
+  text-align: center;
+  padding: 0.5em;
+}
+/*div principal del calendario*/
+#calendario {
+  border: 1px solid #494856;
+  border-radius: 15px;
+  background-color: #fffafa;
+  text-align: center;
+  width: 100%;
+}
+/*tabla del calendario*/
+#diasc {
+  border: 1px solid #494856;
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+#diasc th,
+#diasc td {
+  font: normal 14pt;
+  width: 194px;
+  height: 75px;
+}
+#diasc th {
+  color: #e8e8db;
+  background-color: #636057;
+}
+#diasc td {
+  color: #494856;
+  background-color: #e8e8db;
+}
+/*línea de la fecha actual*/
+#fechaactual {
+  font: bold 12pt;
+  padding: 0.4em;
+}
+#fechaactual i {
+  cursor: pointer;
+}
+#fechaactual i:hover {
+  color: #494856;
+  text-decoration: underline;
+}
+/*formulario de busqueda de fechas*/
+#buscafecha {
+  background-color: #494856;
+  color: #e8e8db;
+  padding: 5px;
+}
+#buscafecha select,
+#buscafecha input {
+  background-color: #e8e8db;
+  color: #494856;
+  font: bold 25pt;
+}
+#buscafecha [type="text"] {
+  text-align: center;
+}
+#buscafecha [type="button"] {
+  cursor: pointer;
+}
+/*cabecera del calendario*/
+#anterior {
+  float: left;
+  width: 100px;
+  font-size: 20px;
+  padding: 0.5em 0.1em;
+  cursor: pointer;
+}
+#posterior {
+  float: right;
+  width: 100px;
+  /* font: bold 12pt arial; */
+  padding: 0.5em 0.1em;
+  cursor: pointer;
+  font-size: 20px;
+}
+#anterior:hover {
+  color: #494856;
+  text-decoration: underline;
+}
+#posterior:hover {
+  color: #494856;
+  text-decoration: underline;
+}
+#titulos {
+  padding: 0.2em;
+  color: #494856;
+}
+.textoCalendario {
+  font-size: 1.5rem;
+  background-color: #494856;
+}
+
+/**********************FIN CALENDARIO****************************************/
+
+/***********************************FICHAJE***************************************/
+.imgBackgroundFichaje {
+  position: fixed;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+/* #tablaFichaje {
+  overflow: auto;
+} */
+
+/*********************************BOTON FICHAJE********************************************/
+#btnFichar {
+  font-size: 2rem !important;
+}
+
+/**************************************************************************************/
